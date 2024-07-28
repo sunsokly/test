@@ -1,0 +1,8 @@
+weight = input("Input your weight:")
+w=float(weight)
+height = input("Input your height: ")
+h=float(height)
+BMI= w //(h**2)
+# print("your BMI",int(BMI))
+# print(f'For Weight={w} and Height={h} so your BMI={BMI} fdsa')
+print("For weight ={} and height={} so your BMI={}".format(w,h,BMI))
